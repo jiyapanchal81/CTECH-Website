@@ -1,0 +1,160 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #222;
+  }
+  
+  
+  
+  /* Header */
+  header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero section */
+  .hero {
+    text-align: center;
+    background-color: #e6f0ff;
+    padding: 100px 20px;
+  }
+  
+  .hero h2 {
+    color: #003366;
+    font-size: 2em;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #0055aa;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .about {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  .services {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .service {
+    background-color: #f0f6ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service h3 {
+    color: #003366;
+    margin-bottom: 10px;
+  }
+  .contact {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f6ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  input, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0055aa;
+  }
+  /* Responsive Design */
+@media (max-width: 768px) {
+    header {
+      padding: 10px 0;
+    }
+  
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav a {
+      display: block;
+      margin: 8px 0;
+    }
+  
+    .hero {
+      padding: 60px 10px;
+    }
+  
+    .about, .services, .contact {
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    .service {
+      margin-bottom: 15px;
+    }
+  }
+  
